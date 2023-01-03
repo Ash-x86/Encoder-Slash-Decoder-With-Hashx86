@@ -14,7 +14,7 @@ def Code(char):
         return "6"
     elif char in ["G","g"]:
         return "7"
-    elif char in ["H","H"]:
+    elif char in ["H","h"]:
         return "8"
     elif char in ["I","i"]:
         return "9"
