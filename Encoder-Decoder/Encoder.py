@@ -51,7 +51,7 @@ def Code(char):
     elif char in ["Y","y"]:
         return "}"
     elif char in ["Z","z"]:
-        return "\"
+        return "/"
 
     # Alphabets complete
     # Numbers Start
@@ -72,3 +72,6 @@ def Code(char):
         return "G"
     elif char in [8,"8"]:
         return "H"
+
+
+    else: return char
