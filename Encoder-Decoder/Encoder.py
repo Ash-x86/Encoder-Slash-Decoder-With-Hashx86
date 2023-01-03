@@ -72,3 +72,6 @@ def Code(char):
         return "G"
     elif char in [8,"8"]:
         return "H"
+
+
+    else: return char
