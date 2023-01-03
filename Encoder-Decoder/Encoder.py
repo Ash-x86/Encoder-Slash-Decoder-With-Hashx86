@@ -52,8 +52,6 @@ def Code(char):
         return "}"
     elif char in ["Z","z"]:
         return "/"
-    elif char == " ":
-        return " "
 
     # Alphabets complete
     # Numbers Start
