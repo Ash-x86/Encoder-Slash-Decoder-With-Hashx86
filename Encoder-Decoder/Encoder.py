@@ -43,9 +43,9 @@ def Code(char):
     elif char in ["U","u"]:
         return "_"
     elif char in ["V","v"]:
-        return "="
+        return "."
     elif char in ["W","w"]:
-        return "+"
+        return ","
     elif char in ["X","x"]:
         return "{"
     elif char in ["Y","y"]:
@@ -72,6 +72,43 @@ def Code(char):
         return "G"
     elif char in [8,"8"]:
         return "H"
-
+    elif char in [9,"9"]:
+        return "I"
+    elif char == "!":
+        return "J"
+    elif char == "@":
+        return "K"
+    elif char == "#":
+        return "L"
+    elif char == "$":
+        return "M"
+    elif char == "%":
+        return "N"
+    elif char == "^":
+        return "O"
+    elif char == "&":
+        return "P"
+    elif char == "*":
+        return "Q"
+    elif char == "(":
+        return "R"
+    elif char == ")":
+        return "S"
+    elif char == "-":
+        return "T"
+    elif char == "_":
+        return "U"
+    elif char == ",":
+        return "V"
+    elif char == ".":
+        return "W"
+    elif char == "'":
+        return "X"
+    elif char == '"':
+        return "Y"
+    elif char == ":":
+        return "Z"
+    elif char == ";":
+        return "|"
 
     else: return char
